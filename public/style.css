@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(229, 255, 168);
+}
+
+
+.host {
+    position: relative;
+    outline: 3px solid #9b992f;
+    background-color: #e6fdaa;
+  }
+  
+  .host::before {
+    content: "Host";
+    display: block;
+    background-color: #7c9b2f;
+    color: white;
+    position: absolute;
+    padding: 2px 5px;
+    bottom: -30px;
+    right: -3px;
+  }
+  
+  .microa {
+    position: relative;
+    outline: 3px solid #2f6c9b;
+    margin: 10px;
+    background-color: #c1e4ff ;
+  }
+  
+  .microa::before {
+    content: "Microfrontend A";
+    display: block;
+    background-color: #2f6c9b;
+    color: white;
+    position: absolute;
+    padding: 2px 5px;
+    bottom: -10px;
+    right: -3px;
+    font-size: 1rem;
+  }
+  
+  
+  .microb {
+    position: relative;
+    outline: 3px solid #469b2f;
+    margin: 10px;
+    background-color: #b1ffb1 ;
+  }
+  
+  .microb::before {
+    content: "MicroFrontend B";
+    display: block;
+    background-color: #469b2f;
+    color: white;
+    position: absolute;
+    padding: 2px 5px;
+    bottom: -10px;
+    right: -3px;
+    font-size: 1rem;
+  }
+  
+  
+  .microc {
+    position: relative;
+    outline: 3px solid #dfa229;
+    margin: 10px;
+    background-color: #f5d585 ;
+  }
+  
+  .microc::before {
+    content: "MicroFrontend C";
+    display: block;
+    background-color: #dfa229;
+    color: white;
+    position: absolute;
+    padding: 2px 5px;
+    bottom: -10px;
+    right: -3px;
+    font-size: 1rem;
+  }
+  
+  
+  .microd {
+    position: relative;
+    outline: 3px solid #6c51f1;
+    margin: 10px;
+    background-color: #c8bcff ;
+  }
+  
+  .microd::before {
+    content: "MicroFrontend D";
+    display: block;
+    background-color: #6c51f1;
+    color: white;
+    position: absolute;
+    padding: 2px 5px;
+    bottom: -10px;
+    right: -3px;
+    font-size: 1rem;
+  }
+  
+  
+  .microe {
+    position: relative;
+    outline: 3px solid #ff3c3c;
+    margin: 10px;
+    background-color: #ffb5b5 ;
+  }
+  
+  .microe::before {
+    content: "MicroFrontend D";
+    display: block;
+    background-color: #ff3c3c;
+    color: white;
+    position: absolute;
+    padding: 2px 5px;
+    bottom: -10px;
+    right: -3px;
+    font-size: 1rem;
+  }
+  
